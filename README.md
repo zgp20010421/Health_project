@@ -4,12 +4,15 @@ health智“囊”微信小程序开发
 远程仓库的搭建
 
 $ git init -b dev
+
 Initialized empty Git repository in D:/Project/Health_project/.git/
 
 $ git status
+
 On branch dev
 
 $ git add .
+
 warning: LF will be replaced by CRLF in project.config.json.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in project.private.config.json.
@@ -20,6 +23,7 @@ $ git config --global core.autocrlf true
 $ git add .
 
 $ git commit -m 'codes'
+
 [dev (root-commit) 64c7572] codes
  114 files changed, 1712 insertions(+)
  create mode 100644 app.js
@@ -140,6 +144,7 @@ $ git commit -m 'codes'
 $ git remote add health https://github.com/zgp20010421/Health_project.git
 
 $ git push -u health dev
+
 Enumerating objects: 116, done.
 Counting objects: 100% (116/116), done.
 Delta compression using up to 12 threads
