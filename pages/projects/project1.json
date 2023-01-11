@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#2875bd",
+  "navigationBarTitleText": "项目详情",
+  "navigationBarTextStyle":"white",
+  "enablePullDownRefresh":true
+}
